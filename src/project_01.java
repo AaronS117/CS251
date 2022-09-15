@@ -32,16 +32,22 @@ public class project_01
             deck[i] = true;
     }
     public static boolean emptyDeck(boolean[] deck){
-        for (int i = 0; i <= 51; i++) {
-            if (!deck[i] == true);
-            return true;
+        for (int i = 0; i < 51; i++) {
+            if (deck[i]){
+                return false;
+            }
         }
-        return false;
+        return true;
     }
     public static int dealCard(boolean[] deck) {
+        while (!emptyDeck(deck)){
+            for (int j = 0; j < 51; j++) {
+            }
+        }
 
+        return 0;
     }
     public static void printCard(int card){
-
+        card = 1;
     }
 }
