@@ -1,3 +1,10 @@
+/**************
+Aaron Oropeza
+9/18/2022
+COMPSCI 251-401
+Project 01
+Deck of Cards
+ *************/
 public class project_01
 {
     public static void main(String[] args)
@@ -37,7 +44,7 @@ public class project_01
 
         for (int i = 0; i <= 51; i++)
             deck[i] = true;
-    }
+    }// end initDeck
 
     public static boolean emptyDeck(boolean[] deck)
     {
@@ -51,7 +58,7 @@ public class project_01
             }
         }
         return true;
-    }
+    }// end emptyDeck
 
     public static int dealCard(boolean[] deck)
     {
@@ -68,7 +75,7 @@ public class project_01
         }
         deck [a] = false;
         return a;
-    }
+    }// end dealCard
     public static void printCard(int card)
     {
         // given a card (an int in the range 0 to 51) prints
@@ -157,5 +164,5 @@ public class project_01
             spade = 'S';
             System.out.print(spade);
         }
-    }
-}
+    } // end printCard
+} // End Project 1
